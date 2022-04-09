@@ -13,9 +13,10 @@
     --fw-reg: 400;
     --fw-bold: 700;
     
-    --clr-light: #303030;
+    --clr-light: #1A1A1A;
     --clr-dark: #fff;
-    --clr-accent: #f8333c;
+    --clr-accent: linear-gradient(270deg, #0091FA -17.73%, #2ECA9B 54.07%, #59FF1F 120.64%);
+    ;
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -253,7 +254,7 @@ header {
 
 .intro__img {
     box-shadow: var(--bs);
-    border: 3px solid white;
+    border: 1px solid white;
 }
 
 .section__subtitle--intro {
@@ -295,8 +296,8 @@ header {
 /*  My services section  */
 
 .my-services {
-    background-color: var(--clr-dark);
-    background-image: url(../img/services-bg.jpg);
+   
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.727),rgba(0, 0, 0, 0.6)) , url(/img/TRRRR.png);
     background-size: cover;
     background-blend-mode: multiply;
     color: var(--clr-dark);
